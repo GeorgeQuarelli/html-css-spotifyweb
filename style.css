@@ -25,7 +25,6 @@ body {
 .main-nav {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   width: 320px;
   height: 100%;
   background: black;
@@ -34,9 +33,7 @@ body {
 .main-nav-header {
   color: grey;
 }
-/* ul li .logo_nav_header:hover{
-  border-left: 3px solid green;
-} */
+
 .first_list_nav_header:hover {
   color: white;
   border-left: 3px solid green;
@@ -50,4 +47,13 @@ body {
   vertical-align: middle;
   width: 10%;
   margin: 5px 5px 5px 15px;
+}
+
+.second_section {
+  margin-left: 15px;
+}
+#playlist_second_section {
+    margin-top: 35px;   
+    color: white;
+    font-size: 15px;
 }
