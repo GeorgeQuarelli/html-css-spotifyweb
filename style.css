@@ -27,7 +27,7 @@ body {
   width: 320px;
   height: 100%;
   background: black;
-   justify-content: space-between;
+  justify-content: space-between;
 }
 /* FIRST SECTION */
 .main-nav-header {
@@ -101,4 +101,11 @@ body {
     display: flex;
     flex-direction: column;
 
+}
+
+.main-content {
+  width: calc(100% - 320px);
+  height: 100%;
+  background-color: #121212;
+  overflow-y: scroll;
 }
