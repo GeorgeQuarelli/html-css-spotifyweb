@@ -170,11 +170,10 @@ flex-grow: 0;
   transform: translate(-50%, -50%);
 }
 .div_img img {
-  width: 50%;
+  width: 80%;
   display: block;
   position: relative;
-  left: 50px;
-  border-radius: 50%;
+  left: 20px;
 }
 .layover {
   position: absolute;
@@ -185,13 +184,14 @@ flex-grow: 0;
   height: 100%;
 }
 .div_img h3 {
-  color: white;
-  font-size: 15px;
-  padding: 4px;
+    margin-top: 2px;
+    color: white;
+    font-size: 15px;
+    padding: 5px;
 }
 .div_img p {
-  font-weight: bold;
-  font-size: 10px;
-  color: white;
-  opacity: 60%;
+    font-weight: bold;
+    font-size: 10px;
+    color: white;
+    opacity: 60%;
 }
