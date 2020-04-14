@@ -309,3 +309,44 @@ body {
 .line_volume:hover .small_line_time_music{
   background-color: lime;
 }
+
+/* media q */
+
+@media (min-width:568px) {
+
+    .img_main_container img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .div_img {
+        padding: 20px 20px;
+    }
+
+    .div_img p {
+        font-size: 20px;
+        margin-top: 10px;
+    }
+}
+
+
+@media (min-width:992px) {
+
+    .img_main_container {
+        justify-content: flex-start;
+    }
+
+    footer {
+        justify-content: space-between;
+    }
+
+    .center_footer p {
+        display: block;
+    }
+
+    .right_footer {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
